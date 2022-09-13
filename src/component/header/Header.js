@@ -27,7 +27,7 @@ const Header = () => {
         <nav className="navbar box-shadow">
           <div className="left-navbar">
             <div>
-              <Link to="/">Quiz Corner</Link>
+              <Link to="/">Tunnel IQ</Link>
             </div>
             <div className="quick-links">
               <Link to="/">
