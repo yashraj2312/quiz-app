@@ -31,7 +31,7 @@ const Signin = () => {
       navigate(from, { replace: true });
       SuccessToast("Login successful");
     } catch (error) {
-      ErrorToast("Invalid username and password", error);
+      ErrorToast("Invalid credentials", error);
     }
   };
 
@@ -50,7 +50,7 @@ const Signin = () => {
       navigate(from, { replace: true });
       SuccessToast("Login successful");
     } catch (error) {
-      ErrorToast("Invalid username and password", error);
+      ErrorToast("Invalid credentials", error);
     }
   };
 
@@ -86,15 +86,15 @@ const Signin = () => {
           }}
         >
           <Form className="form">
-            <div className="login-heading">Login</div>
+            <div className="login-heading">Sign In</div>
             <div>
               <label htmlFor="email" className="form-label">
-                Email
+                E-mail
               </label>
               <Field
                 className="input"
                 type="text"
-                placeholder="Enter Email"
+                placeholder="john@doe.com"
                 name="email"
               />
               <ErrorMessage
@@ -113,7 +113,7 @@ const Signin = () => {
                   id="create-password"
                   className="input"
                   type={showPassword ? "text" : "password"}
-                  placeholder="Enter Password"
+                  placeholder="********"
                   name="password"
                 />
                 <div
@@ -134,8 +134,7 @@ const Signin = () => {
 
             <div className="login-store flex flex-space-between">
               <label htmlFor="acceptTerms">
-                <Field type="checkbox" name="acceptTerms" />I accept all terms &
-                conditions
+                <Field type="checkbox" name="acceptTerms" /> Terms and conditions
                 <ErrorMessage
                   className="error-message"
                   name="acceptTerms"
@@ -146,7 +145,7 @@ const Signin = () => {
 
             <div className="form-btn">
               <button className="btn btn-primary btn-lg" type="submit">
-                Login
+                Sign In
               </button>
             </div>
             <button
@@ -154,11 +153,11 @@ const Signin = () => {
               onClick={guestLogin}
               type="button"
             >
-              Guest Login
+              Sign In via Guest Credentials
             </button>
             <div className="create-account flex flex-center">
               <Link to="/signup" state={{ from: from }}>
-                <p>Don't have account? Create now</p>
+                <p>New to Tunnel IQ? Sign up instead</p>
               </Link>
             </div>
           </Form>

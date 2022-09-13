@@ -9,11 +9,11 @@ const HomePage = () => {
       <div className="main-container">
         <div className="right-side">
           <div className="title">
-            Welcome to <span className="main-title">Quiz Corner</span>
+            Welcome to <span className="main-title">Tunnel IQ</span>
           </div>
           <div>
             <p className="sub-title">
-              Let's see how much general knowledge You have
+              Channel your IQ
             </p>
           </div>
           <div className="btn-container">

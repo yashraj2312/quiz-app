@@ -12,26 +12,26 @@ import {
 export const categories = [
   {
     _id: 1,
-    categoryName: "General Knowledge",
-    description: "Quizes based on General Knowledge",
+    categoryName: "Product",
+    description: "Test your Product Accumen",
     categoryImage: categoryOne,
   },
   {
     _id: 2,
-    categoryName: "Programming",
-    categoryDescription: "Quizzes based on Computer Programming",
+    categoryName: "Tech",
+    categoryDescription: "Test your Tech Accumen",
     categoryImage: categoryThree,
   },
-  {
-    _id: 3,
-    categoryName: "Science and Technology",
-    categoryDescription: "Quizzes based on History",
-    categoryImage: categoryTwo,
-  },
-  {
-    _id: 4,
-    categoryName: "Sports",
-    categoryDescription: "Quizzes based on Sports",
-    categoryImage: categoryFour,
-  },
+  // {
+  //   _id: 3,
+  //   categoryName: "Science and Technology",
+  //   categoryDescription: "Quizzes based on History",
+  //   categoryImage: categoryTwo,
+  // },
+  // {
+  //   _id: 4,
+  //   categoryName: "Sports",
+  //   categoryDescription: "Quizzes based on Sports",
+  //   categoryImage: categoryFour,
+  // },
 ];
