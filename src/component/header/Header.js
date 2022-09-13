@@ -47,7 +47,7 @@ const Header = () => {
                     className="no-show btn btn-link btn-style"
                     onClick={loginHandler}
                   >
-                    Logout
+                    Sign Out
                   </button>
                   <p onClick={loginHandler}>
                     <i className="show fas fa-sign-out-alt fa-2x"></i>
@@ -59,7 +59,7 @@ const Header = () => {
                     className="no-show btn btn-link btn-style"
                     onClick={loginHandler}
                   >
-                    Login
+                    Sign In
                   </button>
                   <p onClick={loginHandler}>
                     <i className="show fas fa-sign-in-alt fa-2x"></i>

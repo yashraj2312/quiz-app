@@ -1,10 +1,3 @@
 export { default as homepageimage } from "./homepageimage.svg";
-export { default as categoryOne } from "./category/generalknowledge.jpg";
-export { default as categoryTwo } from "./category/history.jpg";
-export { default as categoryThree } from "./category/programming.jpg";
-export { default as categoryFour } from "./category/sprots.jpg";
-export { default as cprogramming } from "./quizImages/cprogramming .png";
-export { default as cricket } from "./quizImages/cricket.jpg";
-export { default as quizOne } from "./quizImages/quizOne.png";
-export { default as pythonprogramming } from "./quizImages/pythonprogramming.png";
-export { default as mathquiz } from "./quizImages/mathquiz.jpg";
+export {default as productOp} from "./productop.png"
+export {default as techOp} from "./tech.jpeg"

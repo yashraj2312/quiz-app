@@ -1,8 +1,6 @@
 import {
-  categoryOne,
-  categoryTwo,
-  categoryThree,
-  categoryFour,
+  productOp,
+  techOp,
 } from "../../assets";
 /**
  * Category Database can be added here.
@@ -14,24 +12,12 @@ export const categories = [
     _id: 1,
     categoryName: "Product",
     description: "Test your Product Accumen",
-    categoryImage: categoryOne,
+    categoryImage: productOp,
   },
   {
     _id: 2,
     categoryName: "Tech",
     categoryDescription: "Test your Tech Accumen",
-    categoryImage: categoryThree,
+    categoryImage: techOp,
   },
-  // {
-  //   _id: 3,
-  //   categoryName: "Science and Technology",
-  //   categoryDescription: "Quizzes based on History",
-  //   categoryImage: categoryTwo,
-  // },
-  // {
-  //   _id: 4,
-  //   categoryName: "Sports",
-  //   categoryDescription: "Quizzes based on Sports",
-  //   categoryImage: categoryFour,
-  // },
 ];
