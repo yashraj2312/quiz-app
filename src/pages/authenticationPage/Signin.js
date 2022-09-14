@@ -16,8 +16,8 @@ const Signin = () => {
   const guestLogin = async () => {
     try {
       const response = await axios.post("/api/auth/login", {
-        email: "steveroger@gmail.com",
-        password: "steveroger",
+        email: "bruce@wayne.com",
+        password: "password123",
       });
       localStorage.setItem("user", response.data.foundUser);
       localStorage.setItem("token", response.data.encodedToken);
