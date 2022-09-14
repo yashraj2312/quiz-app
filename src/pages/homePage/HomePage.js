@@ -13,7 +13,7 @@ const HomePage = () => {
           </div>
           <div>
             <p className="sub-title">
-              Tunneling your <span className="main-title">Product and Tech</span> knowledge
+              Tunnel your <span className="main-title">Product and Tech</span> knowledge
             </p>
           </div>
           <div className="btn-container">
