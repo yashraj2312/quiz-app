@@ -9,22 +9,18 @@ const RulePage = () => {
   return (
     <>
       <div>
-        <div className="category-title">Rules For Quiz</div>
+        <div className="category-title">Note</div>
         <div className="rule-container">
           <div className="rule-wrapper-container">
             <ul className="list-style">
               <li className="list-element">
-                There are five questions in the quiz
+                Total 5 questions.
               </li>
               <li className="list-element">
-                Click on next button to save answer and move to next question
-              </li>
-              <li className="list-element">Only one chance for each answer</li>
-              <li className="list-element">
-                For each correct answer gets 15 points
+                Right answer fetch you 15 marks.
               </li>
               <li className="list-element">
-                For each wrong answer gets 0 points
+                There ain't any negative marking.
               </li>
             </ul>
 
@@ -32,7 +28,7 @@ const RulePage = () => {
               onClick={() => Navigate(`/questions/${quizId}/${1}`)}
               className="btn btn-primary"
             >
-              Let's go!
+              Let's Tunnel !
             </button>
           </div>
         </div>
