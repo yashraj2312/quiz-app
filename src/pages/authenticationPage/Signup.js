@@ -27,10 +27,10 @@ const Signup = () => {
           },
         });
         navigate(from, { replace: true });
-        SuccessToast("Login successful");
+        SuccessToast("Sign In successful");
       }
     } catch (error) {
-      ErrorToast("Invalid username and password", error);
+      ErrorToast("Invalid credentials", error);
     }
   };
 
@@ -79,7 +79,7 @@ const Signup = () => {
         >
           {() => (
             <Form className="form">
-              <div className="login-heading">SIGN UP</div>
+              <div className="login-heading">Sign Up</div>
 
               <div>
                 <label htmlFor="name" className="form-label">
@@ -88,7 +88,7 @@ const Signup = () => {
                 <Field
                   className="input"
                   type="text"
-                  placeholder="Enter Name"
+                  placeholder="John Doe"
                   name="firstName"
                 />
                 <ErrorMessage
@@ -100,12 +100,12 @@ const Signup = () => {
 
               <div>
                 <label htmlFor="email" className="form-label">
-                  Email
+                  E-mail
                 </label>
                 <Field
                   className="input"
                   type="text"
-                  placeholder="Enter Email"
+                  placeholder="john@doe.com"
                   name="email"
                 />
                 <ErrorMessage
@@ -124,7 +124,7 @@ const Signup = () => {
                     id="create-password"
                     className="input"
                     type={showPassword ? "text" : "password"}
-                    placeholder="Enter Password"
+                    placeholder="*******"
                     name="password"
                   />
                   <div
@@ -153,7 +153,7 @@ const Signup = () => {
                     id="confirm-password"
                     className="input"
                     type={showPassword ? "text" : "password"}
-                    placeholder="Enter Password"
+                    placeholder="*******"
                     name="confirmPassword"
                   />
                   <div
@@ -174,8 +174,7 @@ const Signup = () => {
 
                 <div className="login-store flex flex-space-between">
                   <label htmlFor="acceptTerms">
-                    <Field type="checkbox" name="acceptTerms" />I accept all
-                    terms & conditions
+                    <Field type="checkbox" name="acceptTerms" /> Terms and conditions
                     <ErrorMessage
                       className="error-message"
                       name="acceptTerms"
@@ -187,7 +186,7 @@ const Signup = () => {
 
               <div className="form-btn">
                 <button className="btn btn-primary btn-lg" type="submit">
-                  Create New Account
+                  Sign Up
                 </button>
               </div>
 
